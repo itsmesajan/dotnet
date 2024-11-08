@@ -1,0 +1,28 @@
+using system;
+
+class lab
+{
+  static void main()
+  {
+    //Demonstrating console.writeLine()
+    Console.WriteLine("This is console.writeLine()");
+    Console.WriteLine("It move the cursor to the next line after printing");
+
+    // Demonstrating console.write();
+    console.write("This is console.write()");
+    console.write("It doesn't move the cursor to the next line.");
+    console.writeLine();//Adding a new line
+
+    //Demonstrating console.ReadLine()
+    Console.WriteLine("Press Enter a line of text(console.readLine():)");
+    string inputLine = Console.ReadLine();
+    Console.WriteLine("You entered(using console.ReadLine()): " + inputLine);
+
+    //Demonstrating console.Read()
+    console.WriteLine("Please enter a single character(console.Read()):");
+    int inputChar = console.Read();
+    console.WriteLine("You entered  (using console.Read()):" + (char)inputChar);
+
+    console.ReadKey();
+  }
+}
