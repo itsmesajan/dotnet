@@ -1,12 +1,12 @@
 ﻿using System;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 
 class Program
 {
   static void Main(string[] args)
   {
     // Connection string to the Bank database
-    string connectionString = "Server=YOUR_SERVER_NAME;Database=Bank;Trusted_Connection=True;";
+    string connectionString = @"Server=LAPTOP-LHJI67J6\SQLEXPRESS;Database=Bank;Trusted_Connection=True;";
 
     // Inserting 5 customer records
     using (SqlConnection conn = new SqlConnection(connectionString))
